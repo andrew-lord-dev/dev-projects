@@ -21,6 +21,23 @@ A Python command-line tool for analyzing conversation logs stored in JSON format
 2. Make sure you have Python 3 installed
 3. No additional installation needed!
 
+## Try It Immediately
+
+A sample dataset ships with the repo so you can run the tool with zero setup:
+
+```bash
+python conversation_analyzer.py sample_conversation.json
+```
+
+## Running the Tests
+
+The project has a pytest suite covering loading, time logic (including midnight-crossing conversations), statistics, and topic extraction:
+
+```bash
+pip install pytest
+pytest
+```
+
 ## Usage
 
 ```bash

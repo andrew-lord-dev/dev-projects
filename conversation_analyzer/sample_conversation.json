@@ -1,0 +1,35 @@
+﻿{
+  "date": "2026-09-25",
+  "conversations": [
+    {
+      "start_time": "08:15 AM",
+      "end_time": "08:32 AM",
+      "messages": [
+        {"role": "sam", "content": "Morning! Did you finish planning the hiking route for Saturday?"},
+        {"role": "riley", "content": "Almost. The canyon trail looks best - about six miles with the waterfall overlook at the halfway point."},
+        {"role": "sam", "content": "Waterfall overlook sounds perfect. Should we start early to beat the heat?"},
+        {"role": "riley", "content": "Definitely. Trailhead by seven means we finish the hiking before noon."}
+      ]
+    },
+    {
+      "start_time": "01:45 PM",
+      "end_time": "02:05 PM",
+      "messages": [
+        {"role": "riley", "content": "Found a great recipe for trail snacks - oat bars with honey and dried cherries."},
+        {"role": "sam", "content": "That recipe sounds way better than store-bought bars. Send it over?"},
+        {"role": "riley", "content": "Sent! The recipe takes twenty minutes and makes a dozen bars."},
+        {"role": "sam", "content": "Making a double batch tonight then. Hiking fuel sorted."}
+      ]
+    },
+    {
+      "start_time": "07:30 PM",
+      "end_time": "07:48 PM",
+      "messages": [
+        {"role": "sam", "content": "Checked the weather for Saturday - clear skies, low eighties by noon."},
+        {"role": "riley", "content": "Perfect hiking weather. I'll bring the good camera for the waterfall."},
+        {"role": "sam", "content": "Nice. Meet at the trailhead parking lot at seven sharp?"},
+        {"role": "riley", "content": "Seven sharp. Bringing extra water and the oat bars."}
+      ]
+    }
+  ]
+}
