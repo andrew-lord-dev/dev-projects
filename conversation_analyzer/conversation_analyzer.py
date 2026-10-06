@@ -188,6 +188,12 @@ def calculate_duration(start_time, end_time):
     
     # Calculate difference
     duration = (end - start).total_seconds() / 60  # Convert to minutes
+    
+    # Handle conversations that cross midnight (e.g., 11:50 PM -> 12:10 AM).
+    # Without this, the duration would come out negative, so we add a full day.
+    if duration < 0:
+        duration += 24 * 60
+    
     return int(duration)
 
 
